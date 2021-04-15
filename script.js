@@ -41,3 +41,12 @@ function Temperature() {
     alert("Is kind of warm");
   }
 }
+//Number of letters
+function numberLetters() {
+  let palabra = prompt("Type a word");
+  if (palabra.length === 0) {
+    alert("Error, type a word");
+  } else {
+    alert(`the length of the word is ${palabra.length}`);
+  }
+}
